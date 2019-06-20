@@ -51,3 +51,6 @@ build-iPhoneSimulator/
 
 # Ignore secrets.yml file
 secrets.yml
+
+# Ignore .env
+.env
