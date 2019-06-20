@@ -54,3 +54,4 @@ secrets.yml
 
 # Ignore .env
 .env
+dotenv
