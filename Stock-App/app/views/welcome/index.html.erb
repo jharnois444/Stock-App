@@ -1,2 +1,15 @@
 <h1>Stock App</h1>
 <p>Stock Market App</p>
+
+
+<%= form_tag root_path, :method => 'POST' do %>
+    <%= text_field_tag 'ticker', nil, placeholder: "Enter Ticker Symbol", size: 50 %>
+    <%= submit_tag 'Lookup' %>
+<% end %>
+
+ <% StockQuote::Stock.new(api_key: 'pk_a712cd430b984f7fbbab3ccd01047115') %>
+
+
+<% if @stock %>
+    <%= @stock.company_name %>
+<% end %>
