@@ -9,7 +9,8 @@
 
  <% StockQuote::Stock.new(api_key: 'pk_a712cd430b984f7fbbab3ccd01047115') %>
 
+<br/>
 
 <% if @stock %>
-    <%= @stock.company_name %>
+    <%= @stock.company_name %><br/>
 <% end %>
