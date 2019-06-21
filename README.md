@@ -6,8 +6,8 @@ Gems used:
  - Devise
  - PG (Prod. db)
 
-screenshots/Sign Up.png
-screenshots/Login.png
-screenshots/Stock Search.png
-screenshots/Portfolio.png
+![Signup](/screenshots/Sign Up.png)
+![Login]/(screenshots/Login.png)
+![Search]/(screenshots/Stock Search.png)
+![Portfolio]/(screenshots/Portfolio.png)
 
